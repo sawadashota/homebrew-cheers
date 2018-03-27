@@ -5,7 +5,7 @@ class Gocmd < Formula
   desc "Golang cli management tool"
   homepage ""
   url "https://github.com/sawadashota/gocmd/releases/download/v1.0.1/gocmd.tar.gz"
-  sha256 "675895c548f963e0071dd5c006821832338baa733f15a8664b03d275e8ec6ba6"
+  sha256 "cebfeefee1a04471aa84b3e402fb71ee5b19e1b7eb88a6c61b8be0ae49973553"
   # depends_on "cmake" => :build
 
   def install
