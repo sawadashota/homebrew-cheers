@@ -1,9 +1,9 @@
 class WaitOpen < Formula
   desc "Golang cli management tool"
   homepage ""
-  url "https://github.com/sawadashota/waitopen/releases/download/v0.0.3/waitopen_0.0.3_macOS_64-bit.tar.gz"
-  version "0.0.3"
-  sha256 "a26eb9fbaf936f6a3103ad1d1924793e8b6904f3d52e52ce845316e3aee2228a"
+  url "https://github.com/sawadashota/waitopen/releases/download/v0.1.0/waitopen_0.1.0_macOS_64-bit.tar.gz"
+  version "0.1.0"
+  sha256 "31e39039e837d1c640dbc287d7f2955d577be1a8e4554ff4ca0d466b58014777"
 
   def install
     bin.install "wait-open"
