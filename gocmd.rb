@@ -1,15 +1,15 @@
 class Gocmd < Formula
   desc "Golang cli management tool"
   homepage ""
-  url "https://github.com/sawadashota/gocmd/releases/download/v1.0.10/gocmd_1.0.10_macOS_64-bit.tar.gz"
-  version "1.0.10"
-  sha256 "3b46374bd00b7fb3bf5d313f520fdec7dd4acfd46c33292895cfb02d3c08770e"
+  url "https://github.com/sawadashota/waitopen/releases/download/v0.0.2/waitopen_0.0.2_macOS_64-bit.tar.gz"
+  version "0.0.2"
+  sha256 "eff607eceee088939ba30d76d98450943a90675e064f4ff502963eb7f4dae8e5"
 
   def install
-    bin.install "gocmd"
+    bin.install "wait-open"
   end
 
   test do
-    system "#{bin}/gocmd -h"
+    system "#{bin}/wait-open -h"
   end
 end
