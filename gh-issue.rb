@@ -1,9 +1,9 @@
 class GhIssue < Formula
   desc "Create GitHub issues from YAML"
   homepage ""
-  url "https://github.com/sawadashota/gh-issue/releases/download/v1.0.0/gh-issue_1.0.0_macOS_64-bit.tar.gz"
-  version "1.0.0"
-  sha256 "2f9fc40cce9bb80cc278d2e6200b0e2b503dc8cfe9e3fd870b2b72ba768d93cf"
+  url "https://github.com/sawadashota/gh-issue/releases/download/v1.0.1/gh-issue_1.0.1_macOS_64-bit.tar.gz"
+  version "1.0.1"
+  sha256 "313dddce2d7c914c1066a61b3359c7b6815fb5bdc87a0fdff885eac99ed18338"
   
   depends_on "envchain"
 
