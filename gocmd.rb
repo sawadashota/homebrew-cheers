@@ -1,9 +1,9 @@
 class Gocmd < Formula
   desc "Golang cli management tool"
   homepage ""
-  url "https://github.com/sawadashota/gocmd/releases/download/v1.0.11/gocmd_1.0.11_macOS_64-bit.tar.gz"
-  version "1.0.11"
-  sha256 "35028953920a9b91407222c1b6e40a98a04bb1b6e8ca53d43866bb567d40f1f0"
+  url "https://github.com/sawadashota/gocmd/releases/download/v1.0.12/gocmd_1.0.12_macOS_64-bit.tar.gz"
+  version "1.0.12"
+  sha256 "7ced20392031ebe711cb0b820de3f8e6fb77c15ff191ca99f5935552444400ab"
 
   def install
     bin.install "gocmd"
