@@ -2,9 +2,9 @@
 class Fpick < Formula
   desc "pick files you want"
   homepage ""
-  url "https://github.com/sawadashota/fpick/releases/download/v0.1.0/fpick_0.1.0_macOS_64-bit.tar.gz"
-  version "0.1.0"
-  sha256 "b53da67ceb679ec4ac8c294096d835e3ce13954657a480650c045918a3510e76"
+  url "https://github.com/sawadashota/fpick/releases/download/v0.1.1/fpick_0.1.1_macOS_64-bit.tar.gz"
+  version "0.1.1"
+  sha256 "3005bcf6096d706d82ee9ea9999701f10e00c8771a1ad779505e7213ec77e9a3"
 
   def install
     bin.install "fpick"
