@@ -2,16 +2,16 @@
 class Gorew < Formula
   desc "Golang cli management tool"
   homepage ""
-  version "2.0.0-beta1"
+  version "2.0.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sawadashota/gorew/releases/download/v2.0.0-beta1/gorew_2.0.0-beta1_macOS_64-bit.tar.gz"
-    sha256 "f1e238c7672655341edb352530a0dec94d280788f659f0b4fbfbf956d862a058"
+    url "https://github.com/sawadashota/gorew/releases/download/v2.0.0/gorew_2.0.0_macOS_64-bit.tar.gz"
+    sha256 "45544040bbe9fe5468252db6d0d14abbfc38618c3afac7bd19f45cc0fd66b029"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sawadashota/gorew/releases/download/v2.0.0-beta1/gorew_2.0.0-beta1_linux_64-bit.tar.gz"
-      sha256 "b9913d62a914b675fdd2f4e6c59adc9e75908ad7cf24ba5f4ad8338f53e2758d"
+      url "https://github.com/sawadashota/gorew/releases/download/v2.0.0/gorew_2.0.0_linux_64-bit.tar.gz"
+      sha256 "9639236a8bafdbc69c7496363a85c3dd0091031701c2963af9ef12eee3995b35"
     end
   end
 
