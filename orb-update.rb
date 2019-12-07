@@ -7,11 +7,11 @@ class OrbUpdate < Formula
 
   if OS.mac?
     url "https://github.com/sawadashota/orb-update/releases/download/v0.0.1/orb-update_0.0.1_macOS_64-bit.tar.gz"
-    sha256 "7a87741ad0ff306e1f435fff5fa375ca19dda02bcad632cf01c69fe59e2f3427"
+    sha256 "87882286a16db41b59149a4bfd5a624f73b0a169e9b2cb76873c8d725415b895"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/sawadashota/orb-update/releases/download/v0.0.1/orb-update_0.0.1_linux_64-bit.tar.gz"
-      sha256 "1eaede1d40faa40677c45a9553c57abfd54784f942ec09473927e1e0fa5f8a10"
+      sha256 "5c0d43fcd0fcb35a5cb2d39f6c6df0f30de52a42bb201eac62327ae053019a05"
     end
   end
 
