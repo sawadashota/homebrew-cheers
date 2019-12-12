@@ -2,16 +2,16 @@
 class OrbUpdate < Formula
   desc "Update Orbs versions"
   homepage ""
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sawadashota/orb-update/releases/download/v0.0.1/orb-update_0.0.1_macOS_64-bit.tar.gz"
-    sha256 "87882286a16db41b59149a4bfd5a624f73b0a169e9b2cb76873c8d725415b895"
+    url "https://github.com/sawadashota/orb-update/releases/download/v0.0.2/orb-update_0.0.2_macOS_64-bit.tar.gz"
+    sha256 "2cc33a3a4c0bdab60cbb3c08640fe22c15d86e5c79868a1b0d7a3f5226b9385f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sawadashota/orb-update/releases/download/v0.0.1/orb-update_0.0.1_linux_64-bit.tar.gz"
-      sha256 "5c0d43fcd0fcb35a5cb2d39f6c6df0f30de52a42bb201eac62327ae053019a05"
+      url "https://github.com/sawadashota/orb-update/releases/download/v0.0.2/orb-update_0.0.2_linux_64-bit.tar.gz"
+      sha256 "36cd004fcc3fb35d050f0f59d43d8a5d76b37b14ef4b26f2a40e0d68f269bd0c"
     end
   end
 
